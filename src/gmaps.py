@@ -327,10 +327,10 @@ class Gmaps:
         result.append(result_item)
       
       all_places = sort_places(merge_places(result), sort)
-      write_output("all", all_places, fields)
+      #write_output("all", all_places, fields)
 
       scraper.scrape_places.close()
-      return result
+      return all_places
 
 
 

@@ -196,7 +196,7 @@ def scrape_places(driver: AntiDetectDriver, data):
     def put_links():
                 start_time = time()
                 
-                WAIT_TIME = 40 # WAIT 40 SECONDS
+                WAIT_TIME = 60 # WAIT 40 SECONDS
 
                 while True:
                     el = driver.get_element_or_none_by_selector(
@@ -251,7 +251,7 @@ def scrape_places(driver: AntiDetectDriver, data):
                         if did_element_scroll:
                             start_time = time()
                         else:
-                            sleep_time = 0.1
+                            sleep_time = 0.2
                             sleep(sleep_time)
     
     search_link = create_search_link(data['query'], data['lang'], data['geo_coordinates'], data['zoom'])

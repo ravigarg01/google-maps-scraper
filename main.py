@@ -1,10 +1,26 @@
 from src.gmaps import Gmaps
+from fastapi import FastAPI
+from typing import List
+from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
-star_it = '''Help us reach 850 stars, and we'll break the GMaps 120 limit, giving you 150+ to 250+ potential customers per search.
-             Star us to make it happen ⭐! https://github.com/omkarcloud/google-maps-scraper/'''
+class QueryModel(BaseModel):
+    queries: List[str]
 
-queries = [
-   "web developers in bangalore"
-]
+app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
 
-Gmaps.places(queries, max=5)
+@app.post("/MapsSearch")
+async def search_places(query_model: QueryModel):
+    result = Gmaps.places(query_model.queries)
+    return result
+
+@app.get('/test')
+async def test():
+    return {'message': 'hello world'}

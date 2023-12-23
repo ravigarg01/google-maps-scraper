@@ -4,7 +4,9 @@ from typing import List
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from amazon_paapi import AmazonApi
-from credentials import KEY, SECRET, TAG, COUNTRY
+from credentials import KEY, SECRET, TAG, COUNTRY, Airtable_api_token
+from pyairtable import Api
+
 
 class QueryModel(BaseModel):
     queries: List[str]
@@ -35,8 +37,21 @@ async def test():
 @app.post('/asinData')
 async def asinData(asins: AsinModel):
     asins = asins.asins
-    results = []
-    for asin in asins:
-        result = amazon.get_items(asin)
-        results.append(result)
-    return results
+    final_results = amazon.get_items(items = asins)
+    return final_results
+    
+
+@app.get('/getExamcart')
+async def getExamcart():
+    airtable = getExamcartAirtable()
+    records = airtable.all()
+    return records
+
+def getAirtable():
+    airtable = Api(api_key=Airtable_api_token)
+    return airtable
+
+def getExamcartAirtable():
+    airtable = getAirtable()
+    examcart = airtable.table('apph7VmzXLax4KGj1', 'Examcart 2023')
+    return examcart

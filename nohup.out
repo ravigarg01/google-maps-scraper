@@ -1,0 +1,708 @@
+INFO:     Will watch for changes in these directories: ['C:\\Softwares\\google-maps-scraper']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [11272] using WatchFiles
+INFO:     Started server process [12576]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Running
+INFO:     127.0.0.1:61598 - "GET /test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[INFO] Downloading Chrome Driver. This is a one-time process. Download in progress...
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:64254 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /test HTTP/1.1" 200 OK
+INFO:     192.168.1.179:64318 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:64319 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:64335 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:64363 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:64713 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:64714 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.229:56601 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coaching-in-agra/csv/places-of-n-d-a-coaching-in-agra.csv
+     output/n-d-a-coaching-in-agra/json/places-of-n-d-a-coaching-in-agra.json
+INFO:     192.168.2.229:56602 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:65292 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:65293 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:65428 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:65429 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:49242 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:49242 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:49322 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:49342 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.169:50283 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coaching-in-agra/csv/places-of-n-d-a-coaching-in-agra.csv
+     output/n-d-a-coaching-in-agra/json/places-of-n-d-a-coaching-in-agra.json
+INFO:     192.168.2.169:50284 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coaching-in-agra/csv/places-of-n-d-a-coaching-in-agra.csv
+     output/n-d-a-coaching-in-agra/json/places-of-n-d-a-coaching-in-agra.json
+INFO:     192.168.2.169:50286 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+INFO:     192.168.2.169:50290 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.169:50313 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coaching-in-agra/csv/places-of-n-d-a-coaching-in-agra.csv
+     output/n-d-a-coaching-in-agra/json/places-of-n-d-a-coaching-in-agra.json
+INFO:     192.168.2.169:50313 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:49451 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:49452 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.169:50426 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-himachal/csv/places-of-sainik-school-coachings-in-himachal.csv
+     output/sainik-school-coachings-in-himachal/json/places-of-sainik-school-coachings-in-himachal.json
+INFO:     192.168.2.169:50427 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.14:59506 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coaching-in-agra/csv/places-of-n-d-a-coaching-in-agra.csv
+     output/n-d-a-coaching-in-agra/json/places-of-n-d-a-coaching-in-agra.json
+Written
+     output/n-d-a-coaching-in-bihar/csv/places-of-n-d-a-coaching-in-bihar.csv
+     output/n-d-a-coaching-in-bihar/json/places-of-n-d-a-coaching-in-bihar.json
+INFO:     192.168.1.14:59507 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.15:62950 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/defence-coachings-in-agra/csv/places-of-defence-coachings-in-agra.csv
+     output/defence-coachings-in-agra/json/places-of-defence-coachings-in-agra.json
+Written
+     output/agniveer-coachings-in-agra/csv/places-of-agniveer-coachings-in-agra.csv
+     output/agniveer-coachings-in-agra/json/places-of-agniveer-coachings-in-agra.json
+INFO:     192.168.1.15:62951 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.15:63001 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+INFO:     192.168.1.15:63002 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coachings-in-agra/csv/places-of-agniveer-coachings-in-agra.csv
+     output/agniveer-coachings-in-agra/json/places-of-agniveer-coachings-in-agra.json
+INFO:     192.168.1.15:63094 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/defence-coachings-in-agra/csv/places-of-defence-coachings-in-agra.csv
+     output/defence-coachings-in-agra/json/places-of-defence-coachings-in-agra.json
+Written
+     output/agniveer-coachings-in-agra/csv/places-of-agniveer-coachings-in-agra.csv
+     output/agniveer-coachings-in-agra/json/places-of-agniveer-coachings-in-agra.json
+INFO:     192.168.1.15:63107 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/defence-coachings-in-agra/csv/places-of-defence-coachings-in-agra.csv
+     output/defence-coachings-in-agra/json/places-of-defence-coachings-in-agra.json
+Written
+     output/agniveer-coachings-in-agra/csv/places-of-agniveer-coachings-in-agra.csv
+     output/agniveer-coachings-in-agra/json/places-of-agniveer-coachings-in-agra.json
+INFO:     192.168.1.15:63109 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/defence-coachings-in-agra/csv/places-of-defence-coachings-in-agra.csv
+     output/defence-coachings-in-agra/json/places-of-defence-coachings-in-agra.json
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/agniveer-coachings-in-agra/csv/places-of-agniveer-coachings-in-agra.csv
+     output/agniveer-coachings-in-agra/json/places-of-agniveer-coachings-in-agra.json
+INFO:     192.168.1.15:63122 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/defence-coachings-in-mathura/csv/places-of-defence-coachings-in-mathura.csv
+     output/defence-coachings-in-mathura/json/places-of-defence-coachings-in-mathura.json
+Written
+     output/n-d-a-coachings-in-mathura/csv/places-of-n-d-a-coachings-in-mathura.csv
+     output/n-d-a-coachings-in-mathura/json/places-of-n-d-a-coachings-in-mathura.json
+Written
+     output/agniveer-coachings-in-mathura/csv/places-of-agniveer-coachings-in-mathura.csv
+     output/agniveer-coachings-in-mathura/json/places-of-agniveer-coachings-in-mathura.json
+INFO:     192.168.1.15:63127 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.15:63137 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/defence-coachings-in-mathura/csv/places-of-defence-coachings-in-mathura.csv
+     output/defence-coachings-in-mathura/json/places-of-defence-coachings-in-mathura.json
+INFO:     192.168.1.15:63138 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/defence-coachings-in-mathura/csv/places-of-defence-coachings-in-mathura.csv
+     output/defence-coachings-in-mathura/json/places-of-defence-coachings-in-mathura.json
+INFO:     192.168.1.15:63146 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.235:49955 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coachings-in-prayagraj/csv/places-of-agniveer-coachings-in-prayagraj.csv
+     output/agniveer-coachings-in-prayagraj/json/places-of-agniveer-coachings-in-prayagraj.json
+INFO:     192.168.2.235:49956 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.235:49984 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coachings-in-prayagraj/csv/places-of-agniveer-coachings-in-prayagraj.csv
+     output/agniveer-coachings-in-prayagraj/json/places-of-agniveer-coachings-in-prayagraj.json
+INFO:     192.168.2.235:49985 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:53794 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+INFO:     192.168.1.179:53795 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+INFO:     192.168.1.179:53816 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+INFO:     192.168.1.179:53821 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+INFO:     192.168.1.179:53822 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:53828 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+INFO:     192.168.1.179:53827 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:53900 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:53927 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:53937 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:53998 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54002 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54069 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54074 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54109 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54111 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54111 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:54118 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54122 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54136 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54136 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54144 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54147 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54147 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54150 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54170 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:54173 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54174 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.235:50109 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-jammu/csv/places-of-sainik-school-coachings-in-jammu.csv
+     output/sainik-school-coachings-in-jammu/json/places-of-sainik-school-coachings-in-jammu.json
+INFO:     192.168.2.235:50110 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54176 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50111 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/school-entrance-coachings-in-prayagraj/csv/places-of-school-entrance-coachings-in-prayagraj.csv
+     output/school-entrance-coachings-in-prayagraj/json/places-of-school-entrance-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50117 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54257 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54257 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54263 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54268 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50124 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50124 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50127 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54291 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50128 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+INFO:     192.168.1.179:54292 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50132 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54294 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54295 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54304 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.2.235:50161 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-prayagraj/csv/places-of-sainik-school-coachings-in-prayagraj.csv
+     output/sainik-school-coachings-in-prayagraj/json/places-of-sainik-school-coachings-in-prayagraj.json
+INFO:     192.168.2.235:50162 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-patna/csv/places-of-sainik-school-coachings-in-patna.csv
+     output/sainik-school-coachings-in-patna/json/places-of-sainik-school-coachings-in-patna.json
+INFO:     192.168.2.235:50164 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-jammu/csv/places-of-sainik-school-coachings-in-jammu.csv
+     output/sainik-school-coachings-in-jammu/json/places-of-sainik-school-coachings-in-jammu.json
+INFO:     192.168.2.235:50165 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-jammu/csv/places-of-sainik-school-coachings-in-jammu.csv
+     output/sainik-school-coachings-in-jammu/json/places-of-sainik-school-coachings-in-jammu.json
+INFO:     192.168.2.235:50166 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/sainik-school-coachings-in-panipat/csv/places-of-sainik-school-coachings-in-panipat.csv
+     output/sainik-school-coachings-in-panipat/json/places-of-sainik-school-coachings-in-panipat.json
+INFO:     192.168.2.235:50167 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/school-entrance-coachings-in-panipat/csv/places-of-school-entrance-coachings-in-panipat.csv
+     output/school-entrance-coachings-in-panipat/json/places-of-school-entrance-coachings-in-panipat.json
+INFO:     192.168.2.235:50169 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:54557 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54564 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54718 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54725 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54738 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:54738 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:55221 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:55222 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:55279 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:55287 - "POST /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/n-d-a-coachings-in-agra/csv/places-of-n-d-a-coachings-in-agra.csv
+     output/n-d-a-coachings-in-agra/json/places-of-n-d-a-coachings-in-agra.json
+Written
+     output/s-s-c-c-g-l-coachings-in-agra/csv/places-of-s-s-c-c-g-l-coachings-in-agra.csv
+     output/s-s-c-c-g-l-coachings-in-agra/json/places-of-s-s-c-c-g-l-coachings-in-agra.json
+INFO:     192.168.1.179:55380 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     192.168.1.179:55477 - "OPTIONS /MapsSearch HTTP/1.1" 200 OK
+Written
+     output/agniveer-coaching-in-mathura/csv/places-of-agniveer-coaching-in-mathura.csv
+     output/agniveer-coaching-in-mathura/json/places-of-agniveer-coaching-in-mathura.json
+Written
+     output/agniveer-coaching-in-agra/csv/places-of-agniveer-coaching-in-agra.csv
+     output/agniveer-coaching-in-agra/json/places-of-agniveer-coaching-in-agra.json
+Written
+     output/agniveer-coaching-in-patna/csv/places-of-agniveer-coaching-in-patna.csv
+     output/agniveer-coaching-in-patna/json/places-of-agniveer-coaching-in-patna.json
+INFO:     192.168.1.179:55478 - "POST /MapsSearch HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['C:\\Softwares\\google-maps-scraper']
+ERROR:    [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+INFO:     Will watch for changes in these directories: ['C:\\Softwares\\google-maps-scraper']
+ERROR:    [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions

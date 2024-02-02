@@ -7,17 +7,12 @@ from fastapi.middleware.cors import CORSMiddleware
 # from amazon_paapi import AmazonApi
 # from credentials import KEY, SECRET, TAG, COUNTRY, Airtable_api_token
 # from pyairtable import Api
+# amazon = AmazonApi(KEY, SECRET, TAG, COUNTRY)
 
 
 class QueryModel(BaseModel):
     queries: List[str]
 
-
-# class AsinModel(BaseModel):
-#     asins: List[str]
-
-
-# amazon = AmazonApi(KEY, SECRET, TAG, COUNTRY)
 
 app = FastAPI()
 app.add_middleware(
@@ -34,10 +29,15 @@ async def search_places(query_model: QueryModel):
     result = Gmaps.places(query_model.queries)
     return result
 
+
 @app.get("/")
 def read_root():
     return {"message": "Hello, World!"}
 
+###################################################################################################
+
+
+###########################################################################################################################################
 # @app.post('/asinData')
 # async def asinData(asins: AsinModel):
 #     asins = asins.asins

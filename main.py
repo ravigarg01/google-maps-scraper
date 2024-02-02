@@ -43,6 +43,7 @@ async def search_places(query_model: QueryModel):
     result = Gmaps.places(query_model.queries)
     return result
 
+############################################
 
 async def places(query_list):
     result = Gmaps.places(query_list)
@@ -68,86 +69,86 @@ async def update_status(query_city_id, status):
 async def map_search():
 
     try:
+        while True:
+            get_Query_url = f"{ydcurl}/placesapi/get_query_city_by_status/Pending/"
+            get_Query_response = requests.get(get_Query_url)
+            get_Query_response.raise_for_status()
 
-        get_Query_url = f"{ydcurl}/placesapi/get_query_city_by_status/Pending/"
-        get_Query_response = requests.get(get_Query_url)
-        get_Query_response.raise_for_status()
+            if get_Query_response.status_code == 200:
+                get_Query_response_data = get_Query_response.json()
+                query = get_Query_response_data.get("query", "")
+                query_city_id = get_Query_response_data.get(
+                    "query_city_id", "")
 
-        if get_Query_response.status_code == 200:
-            get_Query_response_data = get_Query_response.json()
-            query = get_Query_response_data.get("query", "")
-            query_city_id = get_Query_response_data.get(
-                "query_city_id", "")
-
-            if query is None:
-                time.sleep(1800)
-            else:
-                # await update_status(query_city_id, "InProcess")
-                # update_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/InProcess/"
-                # requests.get(update_status_url)
-                # Create a list with a single element, which is your query
-                body = [query]
-
-                print(body)
-                response_data = await places(body)
-
-                if len(response_data) < 1:
-                    await update_status(query_city_id, "InProcess")
-                    # update_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/Cancelled/"
-                    # requests.get(update_status_url)
-                    time.sleep(600)
+                if query is None:
+                    time.sleep(1200)
                 else:
-                    post_body = []
-                    for place in response_data:
-                        google_place_id = place.get("place_id", "")
-                        name = place.get("name", "")
-                        link = place.get("link", "")
-                        phone_number = place.get("phone", "")
-                        website = place.get("website", "")
-                        detailed_address = place.get(
-                            "detailed_address", {})
-                        ward = detailed_address.get("ward", "")
-                        state = detailed_address.get("state", "")
-                        city = detailed_address.get("city", "")
-                        postal_code = detailed_address.get(
-                            "postal_code", "")
-                        street = detailed_address.get("street", "")
-                        status = 3
+                    await update_status(query_city_id, "InProcess")
+                    # update_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/InProcess/"
+                    # requests.get(update_status_url)
+                    
+                    body = [query]
 
-                        query_id = {"query_city_id": query_city_id}
-                        competitors = [
-                            {
-                                "competetor_place_id": None,
-                                "competetor_name": competitor.get("name", ""),
-                                "competetor_link": competitor.get("link", "")
-                            }
-                            for competitor in place.get("competitors", [])
-                        ]
+                 
+                    response_data = await places(body)
 
-                        post_body.append({
-                            "google_place_id": google_place_id,
-                            "name": name,
-                            "link": link,
-                            "phone_number": phone_number,
-                            "website": website,
-                            "ward": ward,
-                            "state": state,
-                            "city": city,
-                            "postal_code": postal_code,
-                            "street": street,
-                            "status": status,
-                            "query_city_id": query_id,
-                            "competitors": competitors
-                        })
+                    if len(response_data) < 1:
+                        await update_status(query_city_id, "Cancelled")
+                        # update_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/Cancelled/"
+                        # requests.get(update_status_url)
+                        time.sleep(600)
+                    else:
+                        post_body = []
+                        for place in response_data:
+                            google_place_id = place.get("place_id", "")
+                            name = place.get("name", "")
+                            link = place.get("link", "")
+                            phone_number = place.get("phone", "")
+                            website = place.get("website", "")
+                            detailed_address = place.get(
+                                "detailed_address", {})
+                            ward = detailed_address.get("ward", "")
+                            state = detailed_address.get("state", "")
+                            city = detailed_address.get("city", "")
+                            postal_code = detailed_address.get(
+                                "postal_code", "")
+                            street = detailed_address.get("street", "")
+                            status = 3
 
-                    post_response = requests.post(
-                        second_endpoint, json=post_body)
-                    post_response.raise_for_status()
+                            query_id = {"query_city_id": query_city_id}
+                            competitors = [
+                                {
+                                    "competetor_place_id": None,
+                                    "competetor_name": competitor.get("name", ""),
+                                    "competetor_link": competitor.get("link", "")
+                                }
+                                for competitor in place.get("competitors", [])
+                            ]
 
-                    if post_response.status_code == 201:
-                        await update_status(query_city_id, "Completed")
-                        # final_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/Completed/"
-                        # requests.get(final_status_url)
+                            post_body.append({
+                                "google_place_id": google_place_id,
+                                "name": name,
+                                "link": link,
+                                "phone_number": phone_number,
+                                "website": website,
+                                "ward": ward,
+                                "state": state,
+                                "city": city,
+                                "postal_code": postal_code,
+                                "street": street,
+                                "status": status,
+                                "query_city_id": query_id,
+                                "competitors": competitors
+                            })
+
+                        post_response = requests.post(
+                            second_endpoint, json=post_body)
+                        post_response.raise_for_status()
+
+                        if post_response.status_code == 201:
+                            await update_status(query_city_id, "Completed")
+                            # final_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/Completed/"
+                            # requests.get(final_status_url)
 
     except requests.RequestException as req_error:
         print(f"Request error: {req_error}")
@@ -164,8 +165,8 @@ async def on_startup():
 app.add_event_handler("startup", on_startup)
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
 
 
 ###########################################################################################################################################

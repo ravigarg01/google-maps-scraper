@@ -1,6 +1,4 @@
 from datetime import datetime
-
-import uvicorn
 from src.gmaps import Gmaps
 from fastapi import FastAPI
 from typing import List
@@ -45,6 +43,7 @@ async def search_places(query_model: QueryModel):
 
 ############################################
 
+
 async def places(query_list):
     result = Gmaps.places(query_list)
     return result
@@ -86,10 +85,9 @@ async def map_search():
                     await update_status(query_city_id, "InProcess")
                     # update_status_url = f"{ydcurl}/placesapi/update_query_id_status/{query_city_id}/InProcess/"
                     # requests.get(update_status_url)
-                    
+
                     body = [query]
 
-                 
                     response_data = await places(body)
 
                     if len(response_data) < 1:

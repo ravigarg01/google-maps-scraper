@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # amazon = AmazonApi(KEY, SECRET, TAG, COUNTRY)
 import time
 import requests
+import uvicorn
 
 
 app = FastAPI()
